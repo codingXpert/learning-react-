@@ -2,10 +2,10 @@
 
 const App = () => {
   return (
-    <React.Fragment>
+    <>
     <h1> Welcome to my page </h1>
     <p>Paging</p>
-    </React.Fragment>
+    </>
     
   );
 };
