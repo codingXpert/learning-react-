@@ -3,7 +3,7 @@
 const App = () => {
   return (
     <>
-    <h1> Welcome to my page </h1>
+    <h1 className='myClass'> Welcome to my page </h1>
     <p>Paging</p>
     </>
     
