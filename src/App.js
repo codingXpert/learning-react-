@@ -5,8 +5,17 @@ const App = () => {
     <>
     <h1 className='myClass'> Welcome to my page </h1>
     <p>Paging</p>
-    <img src = "" alt = ""> </img>
+    {/* <img src = "" alt = ""> </img> */}
+    <MyName/>
     </>
+    
+  );
+};
+
+const MyName = () => {
+  return (
+    
+    <h1>My Name is Vinod</h1>
     
   );
 };
@@ -22,3 +31,4 @@ const App = () => {
 // };
 
 export default App
+
