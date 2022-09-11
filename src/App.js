@@ -1,13 +1,12 @@
-// import React from 'react'   //no need to write this after the react version 17.0
-
-import React from "react"
+ import React from 'react'   //no need to write this after the react version 17.0
 
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
     <h1> Welcome to my page </h1>
-    </div>
     <p>Paging</p>
+    </React.Fragment>
+    
   );
 };
 
